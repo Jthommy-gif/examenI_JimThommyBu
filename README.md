@@ -62,14 +62,14 @@ text
 
 ## 🎯 Características implementadas
 
-### ✅ 1. Página Principal - Dashboard (15 pts)
+### ✅ 1. Página Principal - Dashboard 
 - [x] Título de la biblioteca con diseño atractivo
 - [x] Menú de navegación completo (Inicio, Registrar, Buscar, Estadísticas, Salir)
 - [x] Tabla con todos los libros almacenados
 - [x] Datos de ejemplo precargados (3 libros iniciales)
 - [x] Diseño responsive con CSS personalizado
 
-### ✅ 2. Registro de Libros (25 pts)
+### ✅ 2. Registro de Libros 
 - [x] Formulario POST con todos los campos requeridos:
   - ISBN (máx 13 caracteres, solo números)
   - Título (mín 5 caracteres)
@@ -88,7 +88,7 @@ text
 - [x] Sanitización con `htmlspecialchars()`
 - [x] Confirmación y limpieza después de registro exitoso
 
-### ✅ 3. Almacenamiento de Datos (20 pts)
+### ✅ 3. Almacenamiento de Datos 
 - [x] Uso de `$_SESSION` para almacenar libros
 - [x] Arreglo multidimensional asociativo
 - [x] Persistencia de datos durante la sesión
@@ -97,7 +97,7 @@ text
   - "Cien años de soledad" - Gabriel García Márquez (Ficción)
   - "La colmena" - Camilo José Cela (Historia)
 
-### ✅ 4. Búsqueda y Filtrado (20 pts)
+### ✅ 4. Búsqueda y Filtrado 
 - [x] Formulario GET con 3 tipos de filtros:
   - **Búsqueda por título**: Insensible a mayúsculas/minúsculas
   - **Filtro por género**: Select con todos los géneros disponibles
@@ -109,7 +109,7 @@ text
 - [x] Mensaje "No hay resultados" cuando corresponde
 - [x] Conteo de resultados encontrados
 
-### ✅ 5. Estadísticas del Sistema (15 pts)
+### ✅ 5. Estadísticas del Sistema 
 - [x] Total de libros en biblioteca (`count()`)
 - [x] Total de disponibles vs no disponibles
 - [x] Porcentaje de disponibilidad (cálculo matemático)
@@ -120,7 +120,7 @@ text
 - [x] Promedio de páginas por libro
 - [x] Inventario total (suma de cantidades)
 
-### ✅ 6. Edición de Disponibilidad (10 pts)
+### ✅ 6. Edición de Disponibilidad 
 - [x] Botón "Cambiar disponibilidad" en cada fila
 - [x] Cambio de estado (true↔false) usando operador ternario
 - [x] Confirmación con JavaScript
